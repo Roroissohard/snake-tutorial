@@ -9,7 +9,7 @@ body {
 }
 
 #game-board {
-    background-color: #CCC;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZV3E3v7vNMFjiIUfU39WmPnxtlSxSr4i9cg&s);
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -18,15 +18,16 @@ body {
 }
 
 .snake {
-    background-color: orange;
+    height: auto;
+    width: auto;
+    background-color: rgb(71, 80, 88);
     border: .25vmin solid black;
 }
 
 .food {
-    background-image: url(https://t4.ftcdn.net/jpg/02/03/28/11/360_F_203281120_CEBOi9BE8lrMfbFHE9Sbaq0vJfI5DbOG.jpg);
-    height: 60px;
-    width: 60px;
-    background-color: #bbb;
+    background-image: url(https://devinepaintbm.com/cdn/shop/products/FFDB00.png?v=1647618757);
+    height: 30px;
+    width: 30px;
     border-radius: 100%;
     display: inline-block;
     

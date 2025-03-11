@@ -30,3 +30,6 @@ function draw(){
     drawSnake(gameBoard);
     drawFood(gameBoard);
 }
+function checkDeath() {
+    gameOver = outsideGrid(getSnakeHead()) || snakeIntersection()
+  }
